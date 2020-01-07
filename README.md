@@ -1,6 +1,5 @@
 # Welcome to RemoAI Platofm!
-
-![](https://s5.gifyu.com/images/remoai.gif)
+![](https://i.ibb.co/qFStBzt/image.png)
 This is an platform designed and implemented as example for Open Vision Computer.
 
 ### Features
