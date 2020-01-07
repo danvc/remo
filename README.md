@@ -1,7 +1,7 @@
 # Welcome to RemoAI Platofm!
 This is an platform designed and implemented as example for Open Vision Computer.
-![](https://i.ibb.co/qFStBzt/image.png)
 
+<img src="/public/remoai.gif?raw=true" width="100%">
 
 ### Features
 - Select the coordinates to be send to the OpenCV machine;
