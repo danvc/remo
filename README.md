@@ -3,6 +3,11 @@ This is an platform designed and implemented as example for Open Vision Computer
 
 <img src="/public/remoai.gif?raw=true" width="100%">
 
+### Running the platform
+```
+yarn install && yarn start
+```
+
 ### Features
 - Select the coordinates to be send to the OpenCV machine;
 - Resize and move coordinates; 
