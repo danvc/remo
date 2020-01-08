@@ -22,3 +22,18 @@ yarn install && yarn start
 - Redux: To store and share data over the application;
 - Reduxsauce: In order to minify unneeded code to while using Redux;
 - Material-ui: To use styled components based in the Google Patern Material Design;
+
+### Source code structure
+- src
+  - components: Structured folder for React components that represents the ramification for each context of the platform.
+    - accounts
+    - cropper
+    - dashboard
+    - editor
+    - projects
+    - utils: React components that are shared over the platform
+  - store
+    - reducers: Structured folder for Redux reducers and containers in order to share info over the app
+      - cropper
+      - editor
+      
