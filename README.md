@@ -1,5 +1,5 @@
 # Welcome to RemoAI Platofm!
-This is an platform designed and implemented as example for Open Vision Computer classification.
+This is an platform designed and implemented as example for image labeling and annotation for Open Vision Computer classification.
 
 <img src="/public/remoai.gif?raw=true" width="100%">
 
