@@ -8,6 +8,11 @@ import { DeleteIcon, NumberIcon } from './Icons'
  * Renders each crop/box element
  */
 class Crop extends Component {
+    constructor(props) {
+        super(props);
+        this.handleMouseGestures = this.handleMouseGestures.bind(this);
+    }
+
     static cropStyle = (coordinate) => {
         const {
             x, y, width, height,
@@ -28,11 +33,11 @@ class Crop extends Component {
             touchAction: 'none'
         }
     }
-
+    
     /**
      * Defines the basic behaviors for each cros, such as drag'n drop and resize
      */
-    componentDidMount() {
+    handleMouseGestures() {
         interact(this.crop)
         .draggable({})
         .resizable({
@@ -43,6 +48,19 @@ class Crop extends Component {
         .on('dragmove', this.handleDragMove)
         .on('resizemove', this.handleResizeMove)
     }
+
+    componentDidMount() {
+        // enable the mouse gestures
+        this.handleMouseGestures();
+    }
+
+    componentDidUpdate(prevProps, prevState) {
+        // if the box was disabled and now it's going to be enabled again
+        if (prevProps.coordinate && !prevProps.coordinate.enabled) {
+            // enable the drag and resize handlers
+            this.componentDidMount();
+        }
+    }    
 
     /**
      * Updates the coordinates according the element
