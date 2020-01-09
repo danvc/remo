@@ -15,6 +15,9 @@ yarn install && yarn start
 - Delete a coordinate;
 
 ### Next steps
+- [ ] Create the credential and registration page
+- [ ] Create the "New project" view
+- [ ] Create the categorization view
 - [ ] Create the database structure in order to allow the user create a project
 - [ ] Create the tables structures in order to allow the user categorize in dynamic ways
 - [ ] Expose an API with the encapsulated methods to create the project and initiate the image labelling
