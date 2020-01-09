@@ -15,6 +15,7 @@ yarn install && yarn start
 - Delete a coordinate;
 
 ### Next steps
+- [ ] Add more editor tools, like pencil, eraser
 - [ ] Create the credential and registration page
 - [ ] Create the "New project" view
 - [ ] Create the categorization view
