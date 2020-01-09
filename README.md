@@ -14,6 +14,10 @@ yarn install && yarn start
 - Enable or disable the coordinate;
 - Delete a coordinate;
 
+### Next steps
+- [ ] Create the database structure in order to allow the user create a project
+- [ ] Create the tables structures in order to allow the user categorize in dynamic ways
+- [ ] Expose an API with the encapsulated methods to create the project and initiate the image labelling
 
 ### Libraries used
 
